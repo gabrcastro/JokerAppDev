@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JokerAppDev</string>
+
+    <!-- Menu -->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_joker_day">Piada do dia</string>
+    <string name="menu_about">Sobre</string>
+    <string name="menu_social">Social</string>
+</resources>
