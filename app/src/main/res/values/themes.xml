@@ -11,12 +11,19 @@
         <item name="colorSecondaryVariant">@color/blue_700</item>
         <item name="colorOnSecondary">@color/black</item>
 
-        <!-- Status bar color -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Barra de navegacao do sistema -->
+<!--        <item name="android:navigationBarColor">?attr/colorSecondary</item>-->
     </style>
 
     <style name="Theme.JokerAppDev" parent="Base.Theme.JokerAppDev" />
 
     <style name="Theme.JokerAppDev.AppbarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="Theme.JokerAppDev.PopupOverlay" parent="ThemeOverlay.Material3.Light" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/blue_700</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        <item name="postSplashScreenTheme">@style/Theme.JokerAppDev</item>
+    </style>
 </resources>

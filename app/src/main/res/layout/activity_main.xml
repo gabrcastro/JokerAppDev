@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:openDrawer="start"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
     <include
         layout="@layout/app_bar_main"
@@ -15,10 +15,10 @@
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
-        app:menu="@menu/activity_main_drawer"
         android:layout_gravity="start"
-        app:headerLayout="@layout/nav_header_main"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        app:menu="@menu/activity_main_drawer"
+        app:headerLayout="@layout/nav_header_main"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
